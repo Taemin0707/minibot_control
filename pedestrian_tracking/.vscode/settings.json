@@ -1,0 +1,9 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/taemin/simulation_ws/devel/lib/python2.7/dist-packages",
+        "/home/taemin/realsense_ws/devel/lib/python2.7/dist-packages",
+        "/home/taemin/catkin_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/kinetic/lib/python2.7/dist-packages",
+        "/home/taemin/yolo_tensorflow"
+    ]
+}

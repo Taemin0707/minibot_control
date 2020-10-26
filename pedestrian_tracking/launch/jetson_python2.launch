@@ -1,0 +1,5 @@
+<launch>
+  <!-- Bridge -->
+  <node pkg="pedestrian_tracking" type="bridge_python2.py" name="bridge" output="screen"/>
+
+</launch>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>minibot_control</name>
+  <version>2.0.0</version>
+  <description>
+    This package is made for BCI project(meta package)
+  </description>
+
+  <author email="fini@kist.re.kr">Jinhong</author>
+  <maintainer email="choitm0707@kist.re.kr">Taemin</maintainer>
+  <license>None</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>pedestrian_tracking</exec_depend>
+  <exec_depend>pedestrian_reacting</exec_depend>
+  <exec_depend>shared_control</exec_depend>
+
+  <export><metapackage/></export>
+</package>

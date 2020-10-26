@@ -1,0 +1,10 @@
+<launch>
+  <!-- Pyrealsense2 -->
+  <node pkg="pedestrian_tracking" type="pyrealsense2.py" name="pyrealsense2" output="screen"/>
+
+  <!-- Traicking -->
+  <node pkg="pedestrian_tracking" type="tracking.py" name="tracking" output="screen"/>
+
+  <!-- Reacting -->
+  <node pkg="pedestrian_reacting" type="reacting.py" name="reacting" output="screen"/>
+</launch>
